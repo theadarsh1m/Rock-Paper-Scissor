@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-    
+    <h1>Rock Paper Scissor</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="assets/rock.jpg" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <img src="assets/paper.jpg" alt="">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="assets/scissor.jpg" alt="">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user">0</p>
+            <p>YOU</p>
+        </div>
+        <div class="score">
+            <p id="comp">0</p>
+            <p>COMPUTER</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">PLAY</p>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
